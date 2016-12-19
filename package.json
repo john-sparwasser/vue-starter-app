@@ -1,0 +1,26 @@
+{
+  "name": "vue-starter-app",
+  "version": "1.0.0",
+  "description": "Starter app for vue.js",
+  "main": "gulpfile.js",
+  "repository": "https://github.com/john-sparwasser/vue-starter-app.git",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "browserify": "^13.1.1",
+    "fs": "^0.0.1-security",
+    "gulp": "^3.9.1",
+    "vueify": "^9.4.0",
+    "vueify-insert-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.0.0",
+    "sass": "^0.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Sparwasser",
+  "license": "ISC"
+}

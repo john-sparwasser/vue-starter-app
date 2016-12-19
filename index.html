@@ -2,17 +2,21 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>John Sparwasser</title>
-  <meta name="description" content="John Sparwasser's personal website">
-  <meta name="author" content="John Sparwasser">
+    <title>John Sparwasser</title>
+    <meta name="description" content="Simple Vue starting application">
+    <meta name="author" content="John Sparwasser">
 
-  <link rel="stylesheet" href="assets/styles/styles.css">
-
+    <link rel="stylesheet" href="assets/compiled/css/includes.css">
 </head>
 
 <body>
-  <script src="assets/js/compiled.js"></script>
+    <div id="app">
+        <p>{{ message }}</p>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
